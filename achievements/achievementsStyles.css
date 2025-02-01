@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#page-wrapper{
+    width: 80vw;
+    margin: 0 auto;
+/* 2 values = 1st= top & bottom, 2nd = left & right. auto = exnter  */
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: #D9E8F5;
+    color: #2A3B55
+}
+
+
+#container{
+    display: flex;
+    width :100%
+}
+nav{
+    width: 30%;
+    height: 100vh;
+    background-color: #607D8B;
+}
+
+nav >ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: calc(2px + 2vw);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+ul>li{
+    background-color:#F5F5F5 ;
+    width: 90%;
+    margin:auto; 
+    /* centerized everything */
+    text-align: center;
+}
+
+main{
+    width : 70%;
+    background-color: #FFE6D6;
+}
+
+.achieve{
+    padding:10px;
+}
+.achieve > p {
+    font-size: calc(2px + 2vw);
+    margin: 2vh 0;
+    color:#333333
+}
+
+#page {
+    font-size: calc(3vw);
+    text-align: center;
+    margin:2vh 0;
+    color:#34495E;
+}
+
+#img-wrapper{
+    width: 40%;
+}
+
+#scholar-img{
+    max-width : 100%;
+    float:left;
+    margin: 1vh 1vw;
+}
+
+@media screen and (max-width: 750px) {
+    nav{
+        width: 100%;
+    }
+}
