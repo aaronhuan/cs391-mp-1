@@ -63,7 +63,7 @@ main >p , main >h2, #main-text >p {
 }
 
 #page {
-    font-size: calc(3vw);
+    font-size: 3vw;
     text-align: center;
     margin:2vh 0;
     color:#34495E;
@@ -82,7 +82,7 @@ main >p , main >h2, #main-text >p {
 #cert{
     max-width : 100%;
     float:left;
-    margin: 1vh 1vw;
+    margin: calc(1vh 1vw);
 }
 
 .orgs{
@@ -91,5 +91,36 @@ main >p , main >h2, #main-text >p {
 @media screen and (max-width: 750px) {
     nav{
         width: 100%;
+        height: auto;
+    }
+    main{
+        width:100%;
+    }
+    #container{
+        flex-direction: column;
+    }
+    nav > ul {
+        flex-direction: row;
+        flex-wrap: wrap; /* so it can wrap around b/c no space https://www.w3schools.com/cssref/css3_pr_flex-wrap.php */
+        justify-content: space-evenly; 
+        gap: 10px; /* gap between flex items/*/
+        padding:10px; /* area between the list and the actual border */
+    }
+
+    nav>ul>li{
+        width:auto;
+        font-size: calc(2vw + 4px);
+        padding: 5px; /* expand the grey color*/
+    }
+
+    #page{
+        font-size: calc(7px + 3vw);
+    }
+
+    #main-text .orgs p {
+        font-size: calc(4px + 3vw);
+    }
+    #img-wrapper{
+        width: 60%;
     }
 }

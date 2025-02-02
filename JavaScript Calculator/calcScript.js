@@ -26,6 +26,12 @@ function calc(op){
             result =pow(fnum, snum);
 
             break;
+        
+        case 'clear':
+            result = '';
+            document.getElementById("first-number").value=""; 
+            document.getElementById("second-number").value= "";
+            break;
         default:
 
           break;
@@ -66,7 +72,3 @@ function pow(first,second){
     }
     return result;
 }
-
-// function clear(first,second){
-
-// }
