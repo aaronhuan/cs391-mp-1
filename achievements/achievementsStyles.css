@@ -105,6 +105,8 @@ main{
         padding: 5px; /* expand the grey color*/
     }
 
+   
+
     #page{
         font-size: calc(7px + 3vw);
     }
