@@ -41,6 +41,8 @@ function calc(op){
 
       if (result <0){  //red when negative
         document.getElementById("answer").style.color="red";
+      } else{
+        document.getElementById("answer").style.color="black";
       }
 
 }
@@ -65,10 +67,27 @@ function div(first,second){
 }
 
 function pow(first,second){
-    let result = 1
-
-    for(i=0;i <second; i++ ){
-        result *=first;
+    if (isNaN(first) || isNaN(second)){
+        return NaN;
     }
+    if(second ===0){
+        return 1;
+    }
+    if (first ===0){
+        return 0;
+    }
+
+    let result = 1;
+    if (second <0){
+        for(let i=0;i <(-1)*second; i++ ){
+            result *=first;
+        }  
+        result = 1/result;
+    } else{
+        for(let i=0;i <second; i++ ){
+            result *=first;
+        }
+    }
+
     return result;
 }

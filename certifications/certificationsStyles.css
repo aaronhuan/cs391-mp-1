@@ -82,7 +82,7 @@ main >p , main >h2, #main-text >p {
 #cert{
     max-width : 100%;
     float:left;
-    margin: calc(1vh 1vw);
+    margin: calc(1vw +20px);
 }
 
 .orgs{
