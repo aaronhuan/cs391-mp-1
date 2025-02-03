@@ -60,7 +60,7 @@ main{
     color:#34495E;
 }
 #title{
-    font-size: calc(2px + 1.4vw);
+    font-size: calc(5px + 1.4vw);
 }
 .project{
     padding:10px;
@@ -116,7 +116,7 @@ input{
 
 #actualcalc{
     border: 2px solid black;
-    padding:20px 10px 100px 10px;
+    padding:20px 10px 50px 10px;
 }
 
 #inputs{
@@ -129,7 +129,7 @@ input{
 }
 
 #result{
-    font-size:calc(1vw + 15px);
+    font-size:calc(1vw + 7px);
 }
 @media screen and (max-width: 750px) {
     nav{
