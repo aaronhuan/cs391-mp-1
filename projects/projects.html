@@ -29,25 +29,36 @@
             <main>
                 <p id="page">Projects</p>
                 <hr>
+
                 <div class="project">
-                    <p><a href="../JavaScript Calculator/calcIndex.html">JavaScript Calculator</a> | HTML, CSS, JS</p>
-                    <p>Jan 2025 - Feb 2025</p>
-                    <ul>
-                        <li>Developed and designed a functional calculator with basic operations: add, subtract, divide, power using Flexbox and Media Queries</li>
-                        <li>Deployed responsive web application of calculator on Github and Vercel</li>
-                    </ul>
-                </div>
-                <div class="project">
-                    <p> <a href = "https://github.com/aaronhuan/Spotify"> Spotify Ranking</a> | Python, Flask, Bootstrap CSS, Javascript </p>
-                    <p>Nov 2024 - Present</p>
+                    <p> <a href = "https://github.com/aaronhuan/Spotify"> Spotify Ranking</a></p>
                     <ul>
                         <li>Developing a Flask web application that integrates with Spotify Web API, allowing users to view their top tracks
                             and artists, and create personalized playlists</li>
                         <li>Implementing OAuth authentication using Spotipy library that handles token refreshes.</li>
                     </ul>
                 </div>
+                <div class="project">
+                    <p>JS calculator</p>
+                </div>
+                <div id = "calc-container">
+                    <p id="title">Simple Calculator</p>
+                    <div id="actualcalc">
+                    <input type="text" id="first-number">
+                    <input type="text" id="second-number">
+                    <div id="btn_op">
+                        <button onclick="calc('+')">+</button>
+                        <button onclick="calc('-')">-</button>
+                        <button onclick="calc('*')">*</button>
+                        <button onclick="calc('/')">/</button>
+                        <button onclick="calc('**')">**</button>
+                        <button onclick="calc('clear')">clear</button>
+                    </div>
                 
-        
+                    <p id="result">result: </p>
+                    <p id="answer"></p>
+                    </div>
+                </div>
                 
             </main>            
         </div>
