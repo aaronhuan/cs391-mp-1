@@ -55,11 +55,17 @@ main{
 
 .school{
     color:#333333;
-    padding:10px;
+    border-left: 2px solid blue;
+    margin: 10px 0 10px 8px !important;
+    padding:10px 10px 10px 4px;
+    border-left: calc(0.1vw + 5px) solid black;
 }
+
+
 .school p {
     font-size: calc(2px + 2vw);
     margin: 2vh 0;
+    
 }
 
 #page {

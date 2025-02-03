@@ -59,7 +59,9 @@ main{
     margin:2vh 0;
     color:#34495E;
 }
-
+#title{
+    font-size: calc(2px + 1.4vw);
+}
 .project{
     padding:10px;
 }
