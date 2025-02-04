@@ -62,7 +62,7 @@ main{
 }
 
 .job > ul > li{
-    font-size: calc(5px + 1vw);
+    font-size: calc(10px + 1vw);
     color:#333333;
 }
 

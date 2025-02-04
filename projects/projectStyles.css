@@ -72,7 +72,7 @@ main{
 } */
 
 .project > ul > li{
-    font-size: calc(7px + 1vw);
+    font-size: calc(10px + 1vw);
     color:#333333;
 }
 
