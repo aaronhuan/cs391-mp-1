@@ -55,13 +55,22 @@ main{
 }
 
 .achieve{
-    padding:10px;
+    margin: 10px 0 10px 8px !important;
+    padding:10px 10px 10px 4px;
+    border-left: calc(0.1vw + 5px) solid black;
 }
-.achieve > p {
-    font-size: calc(2px + 2vw);
+
+.achieve > h3{
+    font-size: calc(10px + 1.3vw);
+    color:#333333;
+}
+.achieve> ul>li{
+    font-size: calc(8px + 1vw);
     margin: 2vh 0;
     color:#333333
 }
+
+
 
 #page {
     font-size: 3vw;
@@ -81,6 +90,9 @@ main{
 }
 
 @media screen and (max-width: 750px) {
+    header{
+        align-items: center;
+    }
     nav{
         width: 100%;
         height: auto;

@@ -65,17 +65,24 @@ main{
 .project{
     padding:10px;
 }
-.project> p{
+/* .project> p{
     font-size: calc(2px + 1.4vw);
     margin: 2vh 0;
     color:#333333;
-}
+} */
 
 .project > ul > li{
-    font-size: calc(0.4vw  + 14px);
+    font-size: calc(7px + 1vw);
     color:#333333;
 }
 
+.project h3{
+    font-size: calc(15px + 1vw);
+    color:#333333;
+}
+label{
+    font-size:calc(1vw + 7px);
+}
 
 /* https://www.w3schools.com/howto/howto_css_round_buttons.asp */
 button{
@@ -132,6 +139,9 @@ input{
     font-size:calc(1vw + 7px);
 }
 @media screen and (max-width: 750px) {
+    header{
+        align-items: center;
+    }
     nav{
         width: 100%;
         height: auto;

@@ -58,8 +58,11 @@ main >p , main >h2, #main-text >p {
     color:#333333;
 }
 #main-text p {
-    font-size: calc(2px + 2vw);
+    font-size: calc(8px + 1vw);
     margin: 2vh 0;
+}
+.orgs h3 {
+    font-size: calc(18px + 1.3vw);
 }
 
 #page {
@@ -88,6 +91,9 @@ main >p , main >h2, #main-text >p {
     padding:10px;
 }
 @media screen and (max-width: 750px) {
+    header{
+        align-items: center;
+    }
     nav{
         width: 100%;
         height: auto;
