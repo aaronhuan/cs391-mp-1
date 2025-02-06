@@ -52,6 +52,7 @@ ul>li{
 main{
     width : 70%;
     background-color: #FFE6D6;
+    height:100vh;
 }
 
 main >p , main >h2, #main-text >p {
@@ -89,6 +90,10 @@ main >p , main >h2, #main-text >p {
 
 .orgs{
     padding:10px;
+}
+
+nav ul li a{
+    text-decoration: none;
 }
 @media screen and (max-width: 750px) {
     header{

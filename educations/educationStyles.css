@@ -50,6 +50,7 @@ ul>li{
 
 main{
     width : 70%;
+    height:100vh;
     background-color: #FFE6D6;
 }
 
@@ -85,6 +86,9 @@ main{
     margin: 1vh 1vw;
 }
 
+nav ul li a{
+    text-decoration: none;
+}
 @media screen and (max-width: 750px) {
     header{
         align-items: center;
@@ -112,6 +116,7 @@ main{
         font-size: calc(2vw + 4px);
         padding: 5px;
     }
+
 
     #page{
         font-size: calc(7px + 3vw);

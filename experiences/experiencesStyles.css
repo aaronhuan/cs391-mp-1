@@ -51,6 +51,7 @@ nav>ul>li{
 main{
     width : 70%;
     background-color: #FFE6D6;
+    height:100vh;
 }
 .job{
     padding:10px;
@@ -84,7 +85,9 @@ main{
 }
 
 
-
+nav ul li a{
+    text-decoration: none;
+}
 
 @media screen and (max-width: 750px) {
     header{

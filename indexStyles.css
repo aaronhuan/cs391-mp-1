@@ -52,6 +52,7 @@ ul>li{
 
 main{
     width : 70%;
+    height:100vh;
     background-color: #FFE6D6;
 }
 
@@ -82,6 +83,9 @@ main >p , main >h2, #main-text >p {
 
 #main-text{
     margin: 1vh 1vw;
+}
+nav ul li a{
+    text-decoration: none;
 }
 
 @media screen and (max-width: 750px) {
