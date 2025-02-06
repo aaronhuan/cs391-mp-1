@@ -195,4 +195,10 @@ nav ul li a{
     #actualcalc{
         padding:10px;
     }
+    #title{
+        font-size: calc(13px + 1.5vw);
+    }
+    #title, label, #result{
+        font-size:calc(13px + 1vw)
+    }
 }
