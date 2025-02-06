@@ -126,7 +126,7 @@ input{
 
 #actualcalc{
     border: 2px solid black;
-    padding:20px 10px 50px 10px;
+    padding:20px 10px 40px 10px;
     background-image: url(../src/calc_background.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -191,5 +191,8 @@ nav ul li a{
     #answer{
         width:100%;
 
+    }
+    #actualcalc{
+        padding:10px;
     }
 }
